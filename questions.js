@@ -1,632 +1,665 @@
 questions = [
-    {
-        "question": "Oppression by corporations is more of a concern than oppression by governments.",
-        "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": -5,
-            "scty": 0
-        }
-    },
-    {
-        "question": "It is necessary for the government to intervene in the economy to protect consumers.",
-        "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
-        }
-    },
-    {
-        "question": "The freer the markets, the freer the people.",
-        "effect": {
-            "econ": -10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
-        }
-    },
-    {
-        "question": "It is better to maintain a balanced budget than to ensure welfare for all citizens.",
-        "effect": {
-            "econ": -10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Publicly-funded research is more beneficial to the people than leaving it to the market.",
-        "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
-        "question": "Tariffs on international trade are important to encourage local production.",
-        "effect": {
-            "econ": 5,
-            "dipl": 0,
-            "govt": -10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "From each according to his ability, to each according to his needs.",
-        "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
-        }
-    },
-    {
-        "question": "It would be best if social programs were abolished in favor of private charity.",
-        "effect": {
-            "econ": -10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Taxes should be increased on the rich to provide for the poor.",
-        "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Inheritance is a legitimate form of wealth.",
-        "effect": {
-            "econ": -10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": -5
-        }
-    },
-    {
-        "question": "Basic utilities like roads and electricity should be publicly owned.",
-        "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Government intervention is a threat to the economy.",
-        "effect": {
-            "econ": -10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Those with a greater ability to pay should receive better healthcare.",
-        "effect": {
-            "econ": -10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Quality education is a right of all people.",
-        "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 5
-        }
-    },
-    {
-        "question": "The means of production should belong to the workers who use them.",
-        "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
-        }
-    },
-    {
-        "question": "The United Nations should be abolished.",
-        "effect": {
-            "econ": 0,
-            "dipl": -10,
-            "govt": -5,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Military action by our nation is often necessary to protect it.",
-        "effect": {
-            "econ": 0,
-            "dipl": -10,
-            "govt": -10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "I support regional unions, such as the European Union.",
-        "effect": {
-            "econ": -5,
-            "dipl": 10,
-            "govt": 10,
-            "scty": 5
-        }
-    },
-    {
-        "question": "It is important to maintain our national sovereignty.",
-        "effect": {
-            "econ": 0,
-            "dipl": -10,
-            "govt": -5,
-            "scty": 0
-        }
-    },
-    {
-        "question": "A united world government would be beneficial to mankind.",
-        "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 0,
-            "scty": 0
-        }
-    },
-    {
-        "question": "It is more important to retain peaceful relations than to further our strength.",
-        "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 0,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Wars do not need to be justified to other countries.",
-        "effect": {
-            "econ": 0,
-            "dipl": -10,
-            "govt": -10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Military spending is a waste of money.",
-        "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "International aid is a waste of money.",
-        "effect": {
-            "econ": -5,
-            "dipl": -10,
-            "govt": 0,
-            "scty": 0
-        }
-    },
-    {
-        "question": "My nation is great.",
-        "effect": {
-            "econ": 0,
-            "dipl": -10,
-            "govt": 0,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Research should be conducted on an international scale.",
-        "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
-        "question": "Governments should be accountable to the international community.",
-        "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 5,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Even when protesting an authoritarian government, violence is not acceptable.",
-        "effect": {
-            "econ": 0,
-            "dipl": 5,
-            "govt": -5,
-            "scty": 0
-        }
-    },
-    {
-        "question": "My religious values should be spread as much as possible.",
-        "effect": {
-            "econ": 0,
-            "dipl": -5,
-            "govt": -10,
-            "scty": -10
-        }
-    },
-    {
-        "question": "Our nation's values should be spread as much as possible.",
-        "effect": {
-            "econ": 0,
-            "dipl": -10,
-            "govt": -5,
-            "scty": 0
-        }
-    },
-    {
-        "question": "It is very important to maintain law and order.",
-        "effect": {
-            "econ": 0,
-            "dipl": -5,
-            "govt": -10,
-            "scty": -5
-        }
-    },
-    {
-        "question": "The general populace makes poor decisions.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Physician-assisted suicide should be legal.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "The sacrifice of some civil liberties is necessary to protect us from acts of terrorism.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Government surveillance is necessary in the modern world.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "The very existence of the state is a threat to our liberty.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Regardless of political opinions, it is important to side with your country.",
-        "effect": {
-            "econ": 0,
-            "dipl": -10,
-            "govt": -10,
-            "scty": -5
-        }
-    },
-    {
-        "question": "All authority should be questioned.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 10,
-            "scty": 5
-        }
-    },
-    {
-        "question": "A hierarchical state is best.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "It is important that the government follows the majority opinion, even if it is wrong.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "The stronger the leadership, the better.",
-        "effect": {
-            "econ": 0,
-            "dipl": -10,
-            "govt": -10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Democracy is more than a decision-making process.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Environmental regulations are essential.",
-        "effect": {
-            "econ": 5,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
-        "question": "A better world will come from automation, science, and technology.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
-        "question": "Children should be educated in religious or traditional values.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -5,
-            "scty": -10
-        }
-    },
-    {
-        "question": "Traditions are of no value on their own.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
-        "question": "Religion should play a role in government.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -10,
-            "scty": -10
-        }
-    },
-    {
-        "question": "Churches should be taxed the same way other institutions are taxed.",
-        "effect": {
-            "econ": 5,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
-        "question": "Climate change is currently one of the greatest threats to our way of life.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
-        "question": "It is important that we work as a united world to combat climate change.",
-        "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
-        "question": "Society was better many years ago than it is now.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": -10
-        }
-    },
-    {
-        "question": "It is important that we maintain the traditions of our past.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": -10
-        }
-    },
-    {
-        "question": "It is important that we think in the long term, beyond our lifespans.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
-        "question": "Reason is more important than maintaining our culture.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
-        "question": "Drug use should be legalized or decriminalized.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 10,
-            "scty": 2
-        }
-    },
-    {
-        "question": "Same-sex marriage should be legal.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 10,
-            "scty": 10
-        }
-    },
-    {
-        "question": "No cultures are superior to others.",
-        "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 5,
-            "scty": 10
-        }
-    },
-    {
-        "question": "Sex outside marriage is immoral.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -5,
-            "scty": -10
-        }
-    },
-    {
-        "question": "If we accept migrants at all, it is important that they assimilate into our culture.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -5,
-            "scty": -10
-        }
-    },
-    {
-        "question": "Abortion should be prohibited in most or all cases.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -10,
-            "scty": -10
-        }
-    },
-    {
-        "question": "Gun ownership should be prohibited for those without a valid reason.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "I support single-payer, universal healthcare.",
-        "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Prostitution should be illegal.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -10,
-            "scty": -10
-        }
-    },
-    {
-        "question": "Maintaining family values is essential.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": -10
-        }
-    },
-    {
-        "question": "To chase progress at all costs is dangerous.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": -10
-        }
-    },
-    {
-        "question": "Genetic modification is a force for good, even on humans.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
-        "question": "We should open our borders to immigration.",
-        "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Governments should be as concerned about foreigners as they are about their own citizens.",
-        "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 0,
-            "scty": 0
-        }
-    },
-    {
-        "question": "All people - regardless of factors like culture or sexuality - should be treated equally.",
-        "effect": {
-            "econ": 10,
-            "dipl": 10,
-            "govt": 10,
-            "scty": 10
-        }
-    },
-    {
-        "question": "It is important that we further my group's goals above all others.",
-        "effect": {
-            "econ": -10,
-            "dipl": -10,
-            "govt": -10,
-            "scty": -10
-        }
-    }
+  {
+    question:
+      'Pentingnya pemerintah untuk campur tangan dalam perekonomian untuk melindungi konsumen.',
+    effect: {
+      econ: 10,
+      dipl: 0,
+      govt: 0,
+      scty: 0,
+    },
+  },
+  {
+    question: 'Semakin bebas pasar, semakin bebas masyarakatnya.',
+    effect: {
+      econ: -10,
+      dipl: 0,
+      govt: 0,
+      scty: 0,
+    },
+  },
+  {
+    question:
+      'Penindasan oleh perusahaan lebih menjadi perhatian daripada penindasan oleh pemerintah.',
+    effect: {
+      econ: 10,
+      dipl: 0,
+      govt: -5,
+      scty: 0,
+    },
+  },
+  {
+    question:
+      'Lebih baik memelihari keseimbangan bujet negara daripada menjamin kesejahteraan seluruh masyarakat.',
+    effect: {
+      econ: -10,
+      dipl: 0,
+      govt: 0,
+      scty: 0,
+    },
+  },
+  {
+    question:
+      'Penelitian yang didanai pemerintah atau publik lebih menguntungkan masyarakat dibandingkan diserahkan ke pasar atau swasta.',
+    effect: {
+      econ: 10,
+      dipl: 0,
+      govt: 0,
+      scty: 10,
+    },
+  },
+  {
+    question:
+      'Pengenaan bea cukai pada perdagangan internasional penting untuk mendorong produksi domestik. ',
+    effect: {
+      econ: 5,
+      dipl: 0,
+      govt: -10,
+      scty: 0,
+    },
+  },
+  {
+    question:
+      'Setiap orang berkontribusi sesuai kemampuannya dan setiap orang diberikan sesuai kebutuhannya masing-masing.',
+    effect: {
+      econ: 10,
+      dipl: 0,
+      govt: 0,
+      scty: 0,
+    },
+  },
+  {
+    question:
+      'Akan jadi langkah terbaik jika program sosial dihapuskan dan mendorong sumbangan dari individu atau swasta.',
+    effect: {
+      econ: -10,
+      dipl: 0,
+      govt: 0,
+      scty: 0,
+    },
+  },
+  {
+    question:
+      'Pajak seharusnya dinaikan pada orang-orang kaya untuk memenuhi kebutuhan orang-orang miskin.',
+    effect: {
+      econ: 10,
+      dipl: 0,
+      govt: 0,
+      scty: 0,
+    },
+  },
+  {
+    question: 'Pewarisan adalah bentuk kekayaan yang sah.',
+    effect: {
+      econ: -10,
+      dipl: 0,
+      govt: 0,
+      scty: -5,
+    },
+  },
+  {
+    question:
+      'Kebutuhan dasar seperti jalan raya dan listrik seharusnya dimiliki publik atau pemerintah.',
+    effect: {
+      econ: 10,
+      dipl: 0,
+      govt: 0,
+      scty: 0,
+    },
+  },
+  {
+    question: 'Campur tangan pemerintah adalah ancaman pada ekonomi.',
+    effect: {
+      econ: -10,
+      dipl: 0,
+      govt: 0,
+      scty: 0,
+    },
+  },
+  {
+    question:
+      'Seseorang yang memiliki kemampuan untuk membayar seharusnya menerima layanan kesehatan yang lebih baik.',
+    effect: {
+      econ: -10,
+      dipl: 0,
+      govt: 0,
+      scty: 0,
+    },
+  },
+  {
+    question: 'Pendidikan yang berkualitas adalah hak semua orang.',
+    effect: {
+      econ: 10,
+      dipl: 0,
+      govt: 0,
+      scty: 5,
+    },
+  },
+  {
+    question: 'Alat produksi harus menjadi milik pekerja yang menggunakannya.',
+    effect: {
+      econ: 10,
+      dipl: 0,
+      govt: 0,
+      scty: 0,
+    },
+  },
+  {
+    question: 'Perserikatan Bangsa Bangsa harus dihapuskan.',
+    effect: {
+      econ: 0,
+      dipl: -10,
+      govt: -5,
+      scty: 0,
+    },
+  },
+  {
+    question:
+      'Aksi militer yang dilakukan oleh negara penting untuk menjaga keutuhan negara.',
+    effect: {
+      econ: 0,
+      dipl: -10,
+      govt: -10,
+      scty: 0,
+    },
+  },
+  {
+    question: 'Saya mendukung perserikatan regional, seperti Uni Eropa.',
+    effect: {
+      econ: -5,
+      dipl: 10,
+      govt: 10,
+      scty: 5,
+    },
+  },
+  {
+    question: 'Penting untuk memelihara kedaulatan negara.',
+    effect: {
+      econ: 0,
+      dipl: -10,
+      govt: -5,
+      scty: 0,
+    },
+  },
+  {
+    question:
+      'Perserikatan pemerintah dunia akan menguntungkan bagi umat manusia.',
+    effect: {
+      econ: 0,
+      dipl: 10,
+      govt: 0,
+      scty: 0,
+    },
+  },
+  {
+    question:
+      'Lebih penting untuk menjaga hubungan damai daripada meningkatkan kekuatan negara.',
+    effect: {
+      econ: 0,
+      dipl: 10,
+      govt: 0,
+      scty: 0,
+    },
+  },
+  {
+    question: 'Perang tidak perlu terjadi di negara lain.',
+    effect: {
+      econ: 0,
+      dipl: -10,
+      govt: -10,
+      scty: 0,
+    },
+  },
+  {
+    question: 'Pengeluaran militer hanya membuang-buang uang.',
+    effect: {
+      econ: 0,
+      dipl: 10,
+      govt: 10,
+      scty: 0,
+    },
+  },
+  {
+    question: 'Bantuan internasional hanya membuang-buang uang.',
+    effect: {
+      econ: -5,
+      dipl: -10,
+      govt: 0,
+      scty: 0,
+    },
+  },
+  {
+    question: 'Negaraku sangat hebat.',
+    effect: {
+      econ: 0,
+      dipl: -10,
+      govt: 0,
+      scty: 0,
+    },
+  },
+  {
+    question: 'Penelitian seharusnya dilakukan dalam skala internasional.',
+    effect: {
+      econ: 0,
+      dipl: 10,
+      govt: 0,
+      scty: 10,
+    },
+  },
+  {
+    question:
+      'Pemerintah seharusnya bertanggung jawab kepada komunitas internasional.',
+    effect: {
+      econ: 0,
+      dipl: 10,
+      govt: 5,
+      scty: 0,
+    },
+  },
+  {
+    question:
+      'Bahkan ketika protes pada pemerintah yang otoriter, kekerasan tidak dapat diterima.',
+    effect: {
+      econ: 0,
+      dipl: 5,
+      govt: -5,
+      scty: 0,
+    },
+  },
+  {
+    question: 'Nilai-nilai agamaku seharusnya disebarkan sebanyak mungkin.',
+    effect: {
+      econ: 0,
+      dipl: -5,
+      govt: -10,
+      scty: -10,
+    },
+  },
+  {
+    question: 'Nilai-nilai bangsaku seharusnya disebarkan sebanyak mungkin.',
+    effect: {
+      econ: 0,
+      dipl: -10,
+      govt: -5,
+      scty: 0,
+    },
+  },
+  {
+    question: 'Sangat penting untuk memelihara hukum dan ketertiban.',
+    effect: {
+      econ: 0,
+      dipl: -5,
+      govt: -10,
+      scty: -5,
+    },
+  },
+  {
+    question: 'Masyarakat umum membuat keputusan yang buruk.',
+    effect: {
+      econ: 0,
+      dipl: 0,
+      govt: -10,
+      scty: 0,
+    },
+  },
+  {
+    question: 'Bunuh diri yang dibantu dokter seharusnya legal.',
+    effect: {
+      econ: 0,
+      dipl: 0,
+      govt: 10,
+      scty: 0,
+    },
+  },
+  {
+    question:
+      'Pengorbanan pada kebebasan sipil penting untuk menjaga kita dari serangan terorisme.',
+    effect: {
+      econ: 0,
+      dipl: 0,
+      govt: -10,
+      scty: 0,
+    },
+  },
+  {
+    question: 'Pengawasan pemerintah diperlukan pada dunia yang modern.',
+    effect: {
+      econ: 0,
+      dipl: 0,
+      govt: -10,
+      scty: 0,
+    },
+  },
+  {
+    question: 'Keberadaan negara merupakan ancaman pada kebebasan kita.',
+    effect: {
+      econ: 0,
+      dipl: 0,
+      govt: 10,
+      scty: 0,
+    },
+  },
+  {
+    question:
+      'Apapun pandangan politikmu, penting untuk berpihak pada negaramu.',
+    effect: {
+      econ: 0,
+      dipl: -10,
+      govt: -10,
+      scty: -5,
+    },
+  },
+  {
+    question: 'Semua otoritas harus dipertanyakan.',
+    effect: {
+      econ: 0,
+      dipl: 0,
+      govt: 10,
+      scty: 5,
+    },
+  },
+  {
+    question: 'Negara yang hierarkis adalah yang terbaik.',
+    effect: {
+      econ: 0,
+      dipl: 0,
+      govt: -10,
+      scty: 0,
+    },
+  },
+  {
+    question:
+      'Penting bagi pemerintah untuk mengikuti pendapat masyarakat, meskipun itu salah.',
+    effect: {
+      econ: 0,
+      dipl: 0,
+      govt: 10,
+      scty: 0,
+    },
+  },
+  {
+    question: 'Semakin kuat kepemimpinan, semakin bagus.',
+    effect: {
+      econ: 0,
+      dipl: -10,
+      govt: -10,
+      scty: 0,
+    },
+  },
+  {
+    question: 'Demokrasi itu lebih dari sekadar proses pengambilan keputusan.',
+    effect: {
+      econ: 0,
+      dipl: 0,
+      govt: 10,
+      scty: 0,
+    },
+  },
+  {
+    question: 'Peraturan mengenai lingkungan sangat penting.',
+    effect: {
+      econ: 5,
+      dipl: 0,
+      govt: 0,
+      scty: 10,
+    },
+  },
+  {
+    question:
+      'Dunia yang lebih baik akan datang dari otomasi, sains dan teknologi.',
+    effect: {
+      econ: 0,
+      dipl: 0,
+      govt: 0,
+      scty: 10,
+    },
+  },
+  {
+    question:
+      'Anak-anak seharusnya diberikan pendidikan tentang nilai agama atau tradisi.',
+    effect: {
+      econ: 0,
+      dipl: 0,
+      govt: -5,
+      scty: -10,
+    },
+  },
+  {
+    question: 'Tradisi tidak bernilai dari tradisi itu sendiri.',
+    effect: {
+      econ: 0,
+      dipl: 0,
+      govt: 0,
+      scty: 10,
+    },
+  },
+  {
+    question: 'Agama harus berperan dalam pemerintahan.',
+    effect: {
+      econ: 0,
+      dipl: 0,
+      govt: -10,
+      scty: -10,
+    },
+  },
+  {
+    question:
+      'Rumah ibadah harus dikenakan pajak dengan cara yang sama seperti lembaga atau institusi lain.',
+    effect: {
+      econ: 5,
+      dipl: 0,
+      govt: 0,
+      scty: 10,
+    },
+  },
+  {
+    question:
+      'Perubahan iklim saat ini adalah ancaman terbesar pada kehidupan kita.',
+    effect: {
+      econ: 0,
+      dipl: 0,
+      govt: 0,
+      scty: 10,
+    },
+  },
+  {
+    question:
+      'Penting jika kita bekerja sama sebagai dunia yang bersatu untuk melawan perubahan iklim.',
+    effect: {
+      econ: 0,
+      dipl: 10,
+      govt: 0,
+      scty: 10,
+    },
+  },
+  {
+    question: 'Masyarakat di masa lalu lebih baik daripada masa sekarang.',
+    effect: {
+      econ: 0,
+      dipl: 0,
+      govt: 0,
+      scty: -10,
+    },
+  },
+  {
+    question: 'Penting untuk memelihara tradisi dari masa lalu.',
+    effect: {
+      econ: 0,
+      dipl: 0,
+      govt: 0,
+      scty: -10,
+    },
+  },
+  {
+    question:
+      'Penting bagi kita untuk berpikir jangka panjang, bahkan di luar rentang hidup kita.',
+    effect: {
+      econ: 0,
+      dipl: 0,
+      govt: 0,
+      scty: 10,
+    },
+  },
+  {
+    question:
+      'Nalar atau akal lebih penting daripada mempertahankan budaya kita.',
+    effect: {
+      econ: 0,
+      dipl: 0,
+      govt: 0,
+      scty: 10,
+    },
+  },
+  {
+    question: 'Penggunaan narkoba harus dilegalkan atau di dekriminalisasi.',
+    effect: {
+      econ: 0,
+      dipl: 0,
+      govt: 10,
+      scty: 2,
+    },
+  },
+  {
+    question: 'Pernikahan sesama jenis seharusnya legal.',
+    effect: {
+      econ: 0,
+      dipl: 0,
+      govt: 10,
+      scty: 10,
+    },
+  },
+  {
+    question:
+      'Tidak ada kebudayaan yang lebih superior dibanding budaya lainnya.',
+    effect: {
+      econ: 0,
+      dipl: 10,
+      govt: 5,
+      scty: 10,
+    },
+  },
+  {
+    question: 'Seks pra nikah adalah hal yang tidak bermoral.',
+    effect: {
+      econ: 0,
+      dipl: 0,
+      govt: -5,
+      scty: -10,
+    },
+  },
+  {
+    question:
+      'Jika kita menerima imigran, penting bagi mereka untuk berasimilasi dengan budaya kita.',
+    effect: {
+      econ: 0,
+      dipl: 0,
+      govt: -5,
+      scty: -10,
+    },
+  },
+  {
+    question: 'Aborsi seharusnya dilarang pada kasus dan kondisi apapun.',
+    effect: {
+      econ: 0,
+      dipl: 0,
+      govt: -10,
+      scty: -10,
+    },
+  },
+  {
+    question:
+      'Kepemilikan senjata api seharusnya dilarang bagi yang tidak memiliki alasan valid.',
+    effect: {
+      econ: 0,
+      dipl: 0,
+      govt: -10,
+      scty: 0,
+    },
+  },
+  {
+    question:
+      'Saya mendukung sekali bayar dan layanan kesehatan yang universal.',
+    effect: {
+      econ: 10,
+      dipl: 0,
+      govt: 0,
+      scty: 0,
+    },
+  },
+  {
+    question: 'Prostitusi seharusnya ilegal.',
+    effect: {
+      econ: 0,
+      dipl: 0,
+      govt: -10,
+      scty: -10,
+    },
+  },
+  {
+    question: 'Memelihara nilai-nilai keluarga adalah hal penting.',
+    effect: {
+      econ: 0,
+      dipl: 0,
+      govt: 0,
+      scty: -10,
+    },
+  },
+  {
+    question:
+      'Mengejar kemajuan atau progres dengan cara apa pun itu berbahaya.',
+    effect: {
+      econ: 0,
+      dipl: 0,
+      govt: 0,
+      scty: -10,
+    },
+  },
+  {
+    question: 'Modifikasi genetik adalah hal yang baik, bahkan pada manusia.',
+    effect: {
+      econ: 0,
+      dipl: 0,
+      govt: 0,
+      scty: 10,
+    },
+  },
+  {
+    question: 'Kita harus membuka perbatasan kita untuk imigran.',
+    effect: {
+      econ: 0,
+      dipl: 10,
+      govt: 10,
+      scty: 0,
+    },
+  },
+  {
+    question:
+      'Pemerintah harus memperhatikan orang asing seperti halnya warga negara mereka sendiri.',
+    effect: {
+      econ: 0,
+      dipl: 10,
+      govt: 0,
+      scty: 0,
+    },
+  },
+  {
+    question:
+      'Penting bagi kita untuk memajukan tujuan golongan kita di atas yang lainnya.',
+    effect: {
+      econ: -10,
+      dipl: -10,
+      govt: -10,
+      scty: -10,
+    },
+  },
+  {
+    question:
+      'Semua orang - terlepas dari faktor seperti budaya atau seksualitas - harus diperlakukan adil dan derajat yang sama.',
+    effect: {
+      econ: 10,
+      dipl: 10,
+      govt: 10,
+      scty: 10,
+    },
+  },
 ];

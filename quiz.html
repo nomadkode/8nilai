@@ -4,39 +4,39 @@
     rel="stylesheet"
   />
   <link href="style.css" rel="stylesheet" type="text/css" />
-  <title>8values Quiz</title>
+  <title>Kuis 8nilai</title>
   <link rel="icon" type="x-icon" href="icon.png" />
   <link rel="shortcut icon" type="x-icon" href="icon.png" />
   <meta charset="utf-8" />
 </head>
 <body>
   <script type="application/javascript" src="questions.js"></script>
-  <h1>8values</h1>
+  <h1>8nilai</h1>
   <hr />
   <h2 style="text-align: center" id="question-number">Loading...</h2>
   <p class="question" id="question-text"></p>
   <button class="button stronglyAgree" onclick="next_question( 1.0)">
-    Strongly Agree
+    Sangat Setuju
   </button>
   <br />
-  <button class="button agree" onclick="next_question( 0.5)">Agree</button>
+  <button class="button agree" onclick="next_question( 0.5)">Setuju</button>
   <br />
   <button class="button neutral" onclick="next_question( 0.0)">
-    Neutral/Unsure
+    Netral/Tidak Yakin
   </button>
   <br />
   <button class="button disagree" onclick="next_question(-0.5)">
-    Disagree
+    Tidak Setuju
   </button>
   <br />
   <button class="button stronglyDisagree" onclick="next_question(-1.0)">
-    Strongly Disagree
+    Sangat Tidak Setuju
   </button>
   <br />
   <button class="small_button" onclick="prev_question()" id="back_button">
-    Back
+    Kembali
   </button>
-  <button class="small_button_off" id="back_button_off">Back</button><br />
+  <button class="small_button_off" id="back_button_off">Kembali</button><br />
 
   <script>
     var max_econ, max_dipl, max_govt, max_scty; // Max possible scores
@@ -57,7 +57,7 @@
       document.getElementById('question-text').innerHTML =
         questions[qn].question;
       document.getElementById('question-number').innerHTML =
-        'Question ' + (qn + 1) + ' of ' + questions.length;
+        'Pertanyaan ke ' + (qn + 1) + ' dari ' + questions.length;
       if (qn == 0) {
         document.getElementById('back_button').style.display = 'none';
         document.getElementById('back_button_off').style.display = 'block';
