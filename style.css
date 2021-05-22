@@ -72,7 +72,7 @@ img.center {
   min-width: 500pt;
 }
 .button {
-  background-color: #ff2281;
+  background-color: #0eb4b9;
   font-family: 'Montserrat', sans-serif;
   border: none;
   border-radius: 8pt;
@@ -89,7 +89,7 @@ img.center {
 }
 .button:hover,
 .button:focus {
-  background: #fa559d;
+  background: #0ae7c2;
 }
 .stronglyAgree {
   background: #1b5e20;
