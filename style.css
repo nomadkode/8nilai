@@ -1,23 +1,16 @@
-html {
-  background-color: #a5f8d3;
-  padding: 0px;
-}
 body {
-  width: 80%;
+  width: 70%;
   min-height: calc(100vh - 4em);
   margin: 0 auto;
   padding: 2em;
-  background-color: #fdc7d7;
-  border-color: #ff9de6;
-  border-left-style: solid;
-  border-right-style: solid;
-  border-width: 20px;
+  background-color: #f7bdca;
 }
 p {
   color: #444444;
   font-family: 'Roboto', sans-serif;
-  font-size: 16pt;
-  line-height: 1;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-align: justify;
   margin: 4pt;
 }
 p.value-description {
@@ -25,17 +18,18 @@ p.value-description {
   margin-left: 20pt;
 }
 p.question {
-  margin: 16pt auto;
+  margin: 2rem auto;
   color: #333333;
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
-  width: 70%;
+  width: 90%;
   min-width: 500pt;
   min-height: 144pt;
   background-color: #eeeeee;
-  padding: 16pt;
+  padding: 0.5rem;
   border-radius: 16pt;
-  font-size: 36pt;
+  font-size: 2rem;
+  line-height: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,19 +38,22 @@ p.question {
 h1 {
   color: #222222;
   font-family: 'Montserrat', sans-serif;
-  font-size: 72pt;
+  font-size: 4rem;
   text-align: center;
-  line-height: 72pt;
-  margin-top: 0pt;
-  margin-bottom: 0pt;
+  line-height: 4rem;
+  margin-top: -1rem;
+  margin-bottom: 1rem;
 }
 h2 {
   color: #333333;
   font-family: 'Montserrat', sans-serif;
-  font-size: 36pt;
-  line-height: 36pt;
-  margin-top: 12pt;
-  margin-bottom: 0pt;
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  margin: 2rem auto;
+}
+hr {
+  margin: 1rem auto;
 }
 li {
   font-size: 16pt;
@@ -64,6 +61,11 @@ li {
 }
 a {
   font-family: inherit;
+  text-decoration: none;
+  color: #222222;
+}
+a:hover {
+  color: #867ae9;
 }
 img.center {
   display: block;
@@ -72,24 +74,24 @@ img.center {
   min-width: 500pt;
 }
 .button {
-  background-color: #0eb4b9;
+  background-color: #867ae9;
   font-family: 'Montserrat', sans-serif;
   border: none;
   border-radius: 8pt;
   color: white;
   padding: 8pt;
-  width: 50%;
+  width: 60%;
   min-width: 500pt;
   text-align: center;
   text-decoration: none;
   display: block;
   font-size: 24pt;
-  margin: -2px auto;
+  margin: 0 auto;
   cursor: pointer;
 }
 .button:hover,
 .button:focus {
-  background: #0ae7c2;
+  background: #6a61b9;
 }
 .stronglyAgree {
   background: #1b5e20;
@@ -229,12 +231,21 @@ span.weight-300 {
   font-weight: 300;
 }
 #banner {
+  width: 100%;
   border-color: #444444;
   border-style: solid;
   border-width: 2px;
   border-radius: 8pt;
-  display: block;
-  margin: 8pt;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+}
+
+footer {
+  bottom: 0;
+  margin-top: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
 }
