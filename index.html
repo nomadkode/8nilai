@@ -13,12 +13,13 @@
 <button class="button" onclick="location.href='instructions.html';" style="font-size:36pt;">Klik disini untuk mulai!</button>
 <img src="values.svg" class="center"></img>
 
+<h2 class="faq">⬇ FAQ ⬇</h2>
 <h2>Apa itu 8nilai?</h2>
     <p>8nilai adalah kuis politik yang menempatkan delapan nilai politik yang berbeda. Kamu akan disajikan sebuah pernyataan dan kemudian kamu akan menjawab tentang pendapatmu terhadap pernyataan tersebut, mulai dari <b>Sangat Setuju</b> sampai <b>Sangat Tidak Setuju</b>, dimana setiap jawaban akan mempengaruhi sedikit nilai skor mu. Di akhir kuis ini jawabanmu akan dibandingkan dengan kemungkinan terbanyak dari setiap nilai skor dalam bentuk persentase. Dimohon untuk menjawab dengan jujur!<br /><br />
     Terdapat total <b><u><span id="numOfQuestions"></span></u></b> pertanyaan di dalam kuis ini.</p>
 
 <h2>Apa saja ke 8 nilai tersebut?</h2>
-    <p>Terdapat empat sumbu independen - Economic, Diplomatic, Civil, and Societal - dan masing-masing nya memiliki dua nilai yang berlawanan. Yaitu:</p>
+    <p>Terdapat empat sumbu independen - Economic, Diplomatic, Civil dan Societal - dan masing-masing nya memiliki dua nilai yang berlawanan. Yaitu:</p>
     <p class="value-description"><b style="color:#d32f2f;">Equality</b> (Economic)<br/>
         Seseorang yang memiliki skor Equality lebih tinggi percaya bahwa ekonomi harus di distribusikan secara merata ke semua populasi. Mereka cenderung mendukung pengenaan pajak progresif, program sosial. Pada nilai tertingginya yaitu sosialisme.</p>
     <p class="value-description"><b style="color:#00796b;">Markets</b> (Economic)<br/>
@@ -63,12 +64,12 @@
     x: -200,
     opacity: 0,
     });
-
+    
     gsap.from('img', {
-    duration: 1.5,
-    delay: 1.5,
-    x: 200,
-    opacity: 0,
+        duration: 1.5,
+        delay: 1.5,
+        x: 200,
+        opacity: 0,
     });
 
     gsap.from('h2, p', {
