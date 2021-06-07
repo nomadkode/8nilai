@@ -42,6 +42,8 @@
     Re-design by <a href="https://github.com/nomadkode">nomadkode</a>
   </footer>
 
+  <!--* GSAP Library-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
   <script>
     var max_econ, max_dipl, max_govt, max_scty; // Max possible scores
     max_econ = max_dipl = max_govt = max_scty = 0;
@@ -108,5 +110,34 @@
         `&g=${calc_score(final_govt, max_govt)}` +
         `&s=${calc_score(final_scty, max_scty)}`;
     }
+
+    // GSAP Script
+    gsap.from('h1', {
+      duration: 1.5,
+      delay: 0.5,
+      y: -200,
+      opacity: 0,
+    });
+
+    gsap.from('h2', {
+      duration: 1.5,
+      delay: 1,
+      x: -200,
+      opacity: 0,
+    });
+
+    gsap.from('.question', {
+      duration: 1.5,
+      delay: 1.5,
+      x: 200,
+      opacity: 0,
+    });
+
+    gsap.from('.button', {
+      duration: 1.5,
+      delay: 2,
+      y: 200,
+      opacity: 0,
+    });
   </script>
 </body>

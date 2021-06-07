@@ -30,7 +30,7 @@
     <p class="value-description"><b style="color:#fbc02d;">Liberty</b> (State)<br/>
         Seseorang yang memiliki skor Liberty lebih tinggi percaya pada kebebasan sipil yang kuat. Mereka cenderung mendukung demokrasi dan menolak campur tangan pemerintah pada kehidupan sehari-hari. <i>Catatan bahwa ini mengacu pada kebebasan sipil, bukan kebebasan ekonomi.</i> </p>
     <p class="value-description"><b style="color:#303f9f;">Authority</b> (State)<br/>
-        Seseorang yang memiliki skor Authority lebih tinggi percaya pada kekuatan pemerintah yang kuat. Mereka cenderung mendukung campur tangan pemerintah pada kehidupan sehari-hari, pengawasan pemerintah. Pada nilai tertingginya yaitu otokrasi.</p>
+        Seseorang yang memiliki skor Authority lebih tinggi percaya pada kekuatan pemerintah yang kuat. Mereka cenderung mendukung campur tangan pemerintah pada kehidupan sehari-hari dan pengawasan dari pemerintah. Pada nilai tertingginya yaitu otokrasi.</p>
     <p class="value-description"><b style="color:#689f38;">Tradition</b> (Society)<br/>
         Seseorang yang memiliki skor Tradition lebih tinggi percaya bahwa nilai tradisi dan ketaatan pada moral. Meskipun tidak selalu, mereka biasanya religius dan mendukung status quo.</p>
     <p class="value-description"><b style="color:#7b1fa2;">Progress</b> (Society)<br/>
@@ -45,7 +45,8 @@
 <script type="application/javascript"src="questions.js"></script>
 <!--* GSAP Library-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
-<script type="text/javascript">
+
+<script>
     document.getElementById("numOfQuestions").innerHTML = questions.length;
 
     // GSAP Script
@@ -70,7 +71,7 @@
     opacity: 0,
     });
 
-    gsap.from('h2', {
+    gsap.from('h2, p', {
     duration: 1.5,
     delay: 2,
     y: 200,

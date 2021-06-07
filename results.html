@@ -72,8 +72,8 @@
     dibandingkan nilai dan sumbu diatas.
   </p>
   <p>
-    Kamu dapat mengirim hasil dengan meng copy paste URL diatas halaman web atau
-    pakai gambar dibawah ini.
+    Kamu dapat mengirim hasil dengan meng copy-paste URL diatas halaman web atau
+    klik kanan pada mouse untuk memakai gambar dibawah ini.
   </p>
   <hr />
   <img src="" id="banner" />
@@ -84,6 +84,8 @@
     Re-design by <a href="https://github.com/nomadkode">nomadkode</a>
   </footer>
 
+  <!--* GSAP Library-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
   <script>
     function getQueryVariable(variable) {
       var query = window.location.search.substring(1);
@@ -335,5 +337,34 @@
 
       document.getElementById('banner').src = c.toDataURL();
     };
+
+    // GSAP Script
+    gsap.from('h1', {
+      duration: 1.5,
+      delay: 0.5,
+      y: -200,
+      opacity: 0,
+    });
+
+    gsap.from('h2', {
+      duration: 1.5,
+      delay: 1,
+      x: -200,
+      opacity: 0,
+    });
+
+    gsap.from('.axis', {
+      duration: 1.5,
+      delay: 1.5,
+      x: 200,
+      opacity: 0,
+    });
+
+    gsap.from('p', {
+      duration: 1.5,
+      delay: 2,
+      y: 200,
+      opacity: 0,
+    });
   </script>
 </body>
